@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Open Writer | Login</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="login-register-page">
+    <header data-aos="fade-down" data-aos-duration="500">
+        <div class="container">
+            <div class="navbar navbar-expand-lg">
+                <div class="logo">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="login-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 offset-md-2 offset-lg-3">
+                    <div class="log-block" data-aos="zoom-in" data-aos-duration="500">
+                        <h3 class="log-title">Log in</h3>
+                        <form action="#">
+                            <div class="input-blocks">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control br-8" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <div class="text-right">
+                                    <a class="btn btn-link frg-password p-0" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Forgot password?</a>
+                                </div>                                
+                            </div>
+                            <p class="log-text">Already have an account? <a href="register.html">Signup</a></p>
+
+                            <input type="submit" value="Login" class="submit-btn">
+                        </form>
+                        <p class="or-text">Or</p>
+                        <div class="login-btns">
+                            <a href="#" class="log-btn">
+                                <img src="img/social-btn/facebook.png" alt="">
+                                <span>Login with Facebook</span>
+                            </a>
+                            <a href="#" class="log-btn">
+                                <img src="img/social-btn/google.png" alt="">
+                                <span>Login with Google</span>
+                            </a>
+                            <a href="#" class="log-btn">
+                                <img src="img/social-btn/apple.png" alt="">
+                                <span>Login with Apple</span>
+                            </a>
+                        </div>
+                        <p class="lg-copyright">By registering, you agree to the <a href="#">privacy policy</a> and <a href="#">terms</a> of service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Modal Design -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content forgot-pass">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalToggleLabel">Forgot Password</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Enter the email address associated with your account,<br/> and we’ll email you a link to reset your password.</p>
+              <form action="javascript:void(0)">
+                <div class="input-blocks-2">
+                    <input type="text" placeholder="Email">
+                  </div>              
+                  <button class="submit-btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Send reset link</button>
+              </form>              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content forgot-pass">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalToggleLabel2">Reset Password</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Please choose a memorable password that<br/> contains numbers and letters and is between<br/> 4 and 10 characters</p>
+                <form action="javascript:void(0)">
+                  <div class="input-blocks-2">
+                      <input type="text" placeholder="New Password">
+                    </div>              
+                    <button class="submit-btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Confirm</button>
+                </form>              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- End of Modal Design -->
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

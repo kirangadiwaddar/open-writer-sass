@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="rss_black.1" data-name="rss black.1" transform="translate(-0.209)">
+    <rect id="Rectangle" width="24" height="24" transform="translate(0.209)" fill="none"/>
+    <path id="RSS" d="M18,18H14.571A14.474,14.474,0,0,0,10.3,7.7,14.472,14.472,0,0,0,0,3.429V0A18.021,18.021,0,0,1,18,18Zm-6,0H8.572a8.514,8.514,0,0,0-2.514-6.058A8.514,8.514,0,0,0,0,9.429V6A12.014,12.014,0,0,1,12,18ZM2.571,18a2.571,2.571,0,1,1,2.571-2.571A2.574,2.574,0,0,1,2.571,18Z" transform="translate(3.209 3)" fill="#0b0d0e"/>
+  </g>
+</svg>
